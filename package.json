@@ -2,11 +2,11 @@
   "name": "bkt",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://profile.bkt.com.np/",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "country-flag-icons": "^1.5.11",
