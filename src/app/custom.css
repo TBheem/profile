@@ -1,0 +1,23 @@
+.text-background-img {
+  font-size: 2rem;
+  background-image: url(https://images.pexels.com/photos/10295057/pexels-photo-10295057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: contain;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills:hover > :not(:hover) {
+  opacity: 0.4;
+}
+
+.skills-item {
+  transition: opacity 0.6s ease;
+  border: 0.025rem solid black;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.skills-item:hover {
+  background-color: #ddcfcf;
+}
