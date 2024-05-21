@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const SocialSiteLink: FC = () => {
   return (
-    <div className="flex justify-between items-center gap-2">
+    <div className="flex justify-between items-center gap-2 py-2">
       <a href={"https://www.facebook.com/bheemkrthami"} target="_blank">
         <FaFacebook size={30} />
       </a>
