@@ -53,7 +53,7 @@ const PersonalProfile: FC = () => {
               />
             </div>
           </div>
-          <p className="m-1">
+          <p className="m-2">
             Software Developer @
             <a
               href="https://ditagtech.com.au/"
